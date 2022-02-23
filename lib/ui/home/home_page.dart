@@ -139,7 +139,7 @@ class _HomePageState extends State<HomePage> {
                     Text(
                       "Polynomial",
                       style: Theme.of(context).textTheme.headline4?.copyWith(
-                            color: Theme.of(context).colorScheme.primaryVariant,
+                            color: Theme.of(context).colorScheme.primaryContainer,
                           ),
                     )
                   ],

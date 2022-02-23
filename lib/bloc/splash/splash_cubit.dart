@@ -11,7 +11,6 @@ class SplashCubit extends Cubit<SplashState> {
   final Repository _repo;
 
   SplashCubit(this._repo) : super(const SplashState());
-
   void checkAuthUse() async {
     emit(state.copyWith(status: SplashStatus.loading));
     final _res = await _repo.fetchAuthUser();

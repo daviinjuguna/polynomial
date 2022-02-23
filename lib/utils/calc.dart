@@ -1,5 +1,7 @@
 import 'dart:math';
 
+import 'constants.dart';
+
 class Calculate {
   const Calculate._();
 

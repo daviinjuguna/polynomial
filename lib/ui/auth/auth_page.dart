@@ -96,15 +96,16 @@ class _AuthPageState extends State<AuthPage> {
                         return "Password is min 4 alphanumerical";
                     },
                     decoration: InputDecoration(
-                        hintText: "Enter your password",
-                        suffixIcon: IconButton(
-                          onPressed: () {
-                            setState(() => _isHidden = !_isHidden);
-                          },
-                          icon: Icon(
-                            _isHidden ? Icons.visibility_off : Icons.visibility,
-                          ),
-                        )),
+                      hintText: "Enter your password",
+                      suffixIcon: IconButton(
+                        onPressed: () {
+                          setState(() => _isHidden = !_isHidden);
+                        },
+                        icon: Icon(
+                          _isHidden ? Icons.visibility_off : Icons.visibility,
+                        ),
+                      ),
+                    ),
                   ),
                   VSpacer(space: 4),
                   Row(
